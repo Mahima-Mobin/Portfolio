@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: lightcyan;
+      font-family: sans-serif;
+    }
+
+    .menu {
+      background-color: rgb(6, 118, 118);
+      padding: 2% 1%;
+      font-size: 30px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .menu span {
+      margin-right: auto;
+      color: lightcyan;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 28px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: lightcyan;
+      font-size: 20px;
+      margin: 0 10px;
+    }
+
+    .menu a:hover {
+      background-color: gray;
+      padding: 0.5% 1%;
+    }
+
+    img {
+      float: left;
+      margin: 2%;
+      border-radius: 10px;
+      float: left;
+    }
+
+    .intro {
+      margin: 2%;
+      font-size: 20px;
+      padding-top: 1%;
+      text-align:center;
+      
+    }
+
+    .ok {
+      background-color: azure;
+      margin-top: auto;
+    }
+
+    .baton {
+      font-size: 25px;
+      text-align: center;
+      padding: 2%;
+    }
+
+    .baton button {
+      font-size: 20px;
+      background-color: white;
+      border: none;
+      margin: 0 5px;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .baton button:hover {
+      background-color: skyblue;
+    }
+
+    #one { color: red; }
+    #two { color: blue; }
+    #three { color: black; }
+    #four { color: blue; }
+    #five { color: rgba(212, 95, 0, 0.984); }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <span><strong>Mahima Mobin</strong></span>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="about.html" target="_blank">About</a>
+    <a href="contact.html" target="_blank">Contact</a>
+  </div>
+
+  <img src="C:\Users\user\Downloads\WhatsApp Image 2024-12-14 at 12.41.35 AM.jpeg" alt="No image" height="250" width="215" title="Mahima"/>
+
+  <p class="intro">
+    Hello!<br/>
+    I'm Mahima, a passionate Software Engineering student currently pursuing my B.Sc. at Daffodil International University. <br/><br/>
+    I’m seeking a dynamic and challenging opportunity where I can apply my skills, grow professionally, and contribute meaningfully in a creative and technical environment.
+  </p>
+
+  <footer class="ok">
+    <div class="baton">
+      Connect with me:
+      <button id="one" onclick="window.open('https://www.youtube.com/@mahimaonika2953')"><i class="fa fa-youtube-play"></i></button>
+      <button id="two" onclick="window.open('http://www.linkedin.com/in/mahima-mobin-b455b5316')"><i class="fa fa-linkedin-square"></i></button>
+      <button id="three" onclick="window.open('https://github.com/Mahima-Mobin')"><i class="fa fa-github"></i></button>
+      <button id="four" onclick="window.open('https://www.facebook.com/mahima.onika')"><i class="fa fa-facebook-official"></i></button>
+      <button id="five" onclick="window.open('https://www.instagram.com/mahima_mobin?igsh=bWptZXVlbWE2ZDJq')"><i class="fa fa-instagram"></i></button>
+    </div>
+  </footer>
+</body>
+</html>
